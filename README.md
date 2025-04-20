@@ -6,6 +6,20 @@
 - get_all_dishes：获取cookbook中的所有菜谱
 - get_recipe：获取任意菜品的菜谱
 
+## 环境配置
+```bash
+# Create a new directory for our project
+uv init cookbook
+cd cookbook
+
+# Create virtual environment and activate it
+uv venv
+source .venv/bin/activate
+
+# Install dependencies
+uv add "mcp[cli]"
+```
+
 ## 使用方法
 1. 获取菜谱：
    菜谱：https://github.com/Anduin2017/HowToCook/tree/master
